@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.contact {
+  margin-top: 1rem;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1e40af;
+}
+
+.light {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Skills */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  list-style: none;
+}
+
+.skills li {
+  background: #e0e7ff;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Education */
+.edu {
+  margin-bottom: 1rem;
+}
+
+/* Certifications */
+.certs {
+  list-style: none;
+  text-align: center;
+}
+
+.certs li {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #1e40af;
+  color: white;
+  margin-top: 2rem;
+}
