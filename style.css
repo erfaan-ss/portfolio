@@ -1,107 +1,114 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Irfan Basha | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  background: #f4f6f8;
-  color: #333;
-  line-height: 1.6;
-}
+<nav class="navbar">
+  <h2>Irfan.</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <select id="themeSwitcher">
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+    <option value="blue">Blue</option>
+  </select>
+</nav>
 
-/* Hero */
-.hero {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
-  text-align: center;
-  padding: 3rem 1rem;
-}
+<header class="hero">
+  <h1>Shaik Mohammed Irfan Basha</h1>
+  <p>Python Developer • Web Developer • Data Analyst</p>
+  <a href="#projects" class="btn">View My Work</a>
+</header>
 
-.hero h1 {
-  font-size: 2.5rem;
-}
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a Computer Science undergraduate skilled in Python, web development,
+    and data visualization tools like Power BI and Tableau.
+    I aim to build scalable solutions while continuously learning new technologies.
+  </p>
+</section>
 
-.hero p {
-  margin-top: 0.5rem;
-  font-size: 1.1rem;
-}
+<section id="skills" class="section alt">
+  <h2>Skills</h2>
+  <div class="grid">
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript (Basics)</span>
+    <span>SQL</span>
+    <span>Power BI</span>
+    <span>Tableau</span>
+    <span>MS Office</span>
+  </div>
+</section>
 
-.contact {
-  margin-top: 1rem;
-}
+<section id="projects" class="section">
+  <h2>Projects</h2>
 
-.contact a {
-  color: white;
-  text-decoration: none;
-  margin-right: 1rem;
-}
+  <div class="card">
+    <h3>E-Waste Awareness Program</h3>
+    <p>
+      Conducted awareness campaigns educating communities about electronic waste
+      recycling and environmental sustainability.
+    </p>
+    <a href="#" class="link">View Details →</a>
+  </div>
 
-/* Sections */
-.section {
-  padding: 3rem 1.5rem;
-  max-width: 900px;
-  margin: auto;
-}
+  <div class="card">
+    <h3>Power BI & Tableau Dashboards</h3>
+    <p>
+      Designed interactive dashboards with cleaned and modeled datasets
+      to deliver actionable insights.
+    </p>
+    <a href="#" class="link">View Details →</a>
+  </div>
+</section>
 
-.section h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  color: #1e40af;
-}
+<section id="education" class="section alt">
+  <h2>Education</h2>
 
-.light {
-  background: white;
-  border-radius: 10px;
-}
+  <div class="timeline">
+    <div>
+      <h4>B.Sc Computer Science</h4>
+      <p>St. Joseph’s Degree College (2023–2026)</p>
+      <span>CGPA: 7.0</span>
+    </div>
 
-/* Skills */
-.skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  list-style: none;
-}
+    <div>
+      <h4>Intermediate (MPC)</h4>
+      <p>Vignan Junior College (2021–2023)</p>
+      <span>CGPA: 7.9</span>
+    </div>
 
-.skills li {
-  background: #e0e7ff;
-  padding: 0.7rem;
-  text-align: center;
-  border-radius: 6px;
-  font-weight: 500;
-}
+    <div>
+      <h4>SSC</h4>
+      <p>Vijayavani High School (2020–2021)</p>
+      <span>CGPA: 10</span>
+    </div>
+  </div>
+</section>
 
-/* Cards */
-.card {
-  background: white;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:erfaanshaiks@gmail.com">erfaanshaiks@gmail.com</a></p>
+  <p>Phone: 6302262388</p>
+</section>
 
-/* Education */
-.edu {
-  margin-bottom: 1rem;
-}
+<footer>
+  <p>© 2026 Shaik Mohammed Irfan Basha</p>
+</footer>
 
-/* Certifications */
-.certs {
-  list-style: none;
-  text-align: center;
-}
-
-.certs li {
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background: #1e40af;
-  color: white;
-  margin-top: 2rem;
-}
+<script src="theme.js"></script>
+</body>
+</html>
